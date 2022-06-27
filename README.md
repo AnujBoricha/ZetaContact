@@ -1,49 +1,47 @@
-# ZetaContact
+# Cloud Contact
 
-ZetaContact is an  App where user can SignUp, Login and manage their contact in online/clouds.
-In this Project I have used Node.js, Express, Mongodb for api, Jwt token for user authentication and React/Redux for Forntend Part.
+ZetaContact is an App where user can SignUp, Login and manage their contact in online/clouds. In this Project I have used Node.js, Express, Mongodb for api, Jwt token for user authentication and React/Redux for Forntend Part.
 
 # See live demo here
 
-https://cloud-contact-devmahmud.herokuapp.com/
+https://excentric-zetacontact.herokuapp.com/
 
 # Install dependencies for server
+
+```
 npm install
 ```
 
 # Install dependencies for client
 
 ```
-npm run client-install
+cd client 
+npm install
 ```
 
 # Run the Express server only
 
 ```
-npm run server
+npm start
 ```
 
 # Run the React client only
 
 ```
-npm run client
+cd client
+npm start
 ```
 
 ```
-Setup your MongoDB datbase connection and JWT Secrect key in "config/default.json"
-i.e : DB = "Mongo URI"
-      JWTSECRETKEY = "yoursecretkey"
+Setup your MongoDB datbase connection and JWT Secrect key in "config/default.json" 
+i.e : DB = "Mongo URI" 
+    JWTSECRETKEY = "yoursecretkey"
 ```
-# Project snapshot
-
-## User Homepage
-
-## Author
-
-<blockquote>
+## Developer
+```
 Anuj Boricha
 B.Tech in Software Engineering From Delhi Technological University
-Email: anujboricha9824@gmail.com
-</blockquote>
+Email : anujboricha9824@gmail.com
+```
 
 
