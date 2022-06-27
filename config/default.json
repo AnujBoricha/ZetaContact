@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://AnujBoricha:Anuj9824@cluster0.qrsed.mongodb.net/zetashare?retryWrites=true&w=majority",
+  "jwtSecret": "anujboricha"
+}
