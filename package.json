@@ -1,7 +1,7 @@
 {
   "name": "zeta-contact",
   "version": "1.0.0",
-  "description": "Contact Manager App",
+  "description": "Online Contact Saving App",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,8 +11,8 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Mahmudul Alam",
-  "license": "ISC",
+  "author": "Anuj Boricha",
+  "license": "",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.4",
